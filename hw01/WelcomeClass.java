@@ -3,7 +3,7 @@
 //Welcome Class Java Program
 //
 //Like the first lab, compile the program with javac WelcomeClass.java
-// run the program java HelloWorld//
+// run the program java WelcomeClass//
 
 // First define a class
 public class WelcomeClass{
