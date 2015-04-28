@@ -20,6 +20,7 @@ public class SmileGenerator {
     int k=0;
     do{
         System.out.print(":)");
+        k++;
     } while(k<5); // do while loop to print 5 smilies
     
     System.out.println("");
@@ -44,7 +45,12 @@ public class SmileGenerator {
       System.out.println("");
       
       System.out.println("For part 4:");
-      for(d=0;d<rando)
+      for(int d=0;d<rando;d++){
+          for(int t=0;t<=d;t++){
+          System.out.print(":)");
+          }
+          System.out.println();
+      }
          
     
         

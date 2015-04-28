@@ -28,7 +28,7 @@ public class Cookies {
                                    if( (cookie-(people*each))>= 0) {
                                        double cookie1= (double)cookie; // need to get multiple di
                                        double each1= (double) each;
-                                       int cookiedivide = (int)((cookie1/each1)*10)%10; // so we can see if there is a remainder for the cookie division
+                                       int cookiedivide = (int)((cookie1/each1))%10; // so we can see if there is a remainder for the cookie division
                                        if (cookiedivide==0){
                                            System.out.println("You have enough cookies and they divide evenly.");
                                            
